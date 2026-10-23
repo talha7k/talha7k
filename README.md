@@ -43,3 +43,8 @@
 ---
 
 ⭐ Star **[ModelsDesk](https://github.com/talha7k/modelsdesk)** if you run local LLMs — it helps others find it.
+⭐ Star **[Kampodra](https://github.com/talha7k/kampodra)** if you manage VMs — it helps others find it.
+
+
+
+
