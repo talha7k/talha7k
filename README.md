@@ -14,9 +14,9 @@
 
 ### 🚀 Key Projects & Open Source
 
-- **[Kampodra](https://github.com/talha7k/kampodra):** Registry-free deployment engine in **Go** for single-VM container stacks — zero-downtime, SSH-pipelined blue/green deploys via Podman + kamal-proxy, no Kubernetes required.
+- **[Kampodra](https://github.com/talha7k/kampodra):** AI-native, registry-free deployment engine in **Go** — built as a deterministic tool layer for AI DevOps agents: SSH-pipelined container deploys, zero-downtime blue/green swaps, and **autonomous safety guardrails** (post-deploy health gates auto-rollback bad releases before they hit live traffic).
   ```bash
-  go install github.com/talha7k/kampodra@latest   # no registry, no k8s — just SSH + podman
+  go install github.com/talha7k/kampodra@latest   # deploy + verify in seconds, no registry, no k8s
   ```
 - **[@talha7k/zatca](https://www.npmjs.com/package/@talha7k/zatca):** Production ZATCA e-invoicing compliance library for Saudi Arabia — Phase 1 & 2 (UBL generation, cryptographic stamping, QR codes, ZATCA portal integration). Used by real invoicing systems.
   ```bash
