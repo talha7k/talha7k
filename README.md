@@ -14,8 +14,14 @@
 
 ### 🚀 Key Projects & Open Source
 
-- **[Kampodra](https://github.com/talha7k/kampodra):** Lightweight, registry-free single-VM deployment engine CLI — zero-downtime SSH-pipelined blue/green deploys.
-- **[@talha7k/zatca](https://www.npmjs.com/package/@talha7k/zatca):** Phase 1 & 2 ZATCA e-invoicing compliance library for Saudi Arabia.
+- **[Kampodra](https://github.com/talha7k/kampodra):** Lightweight, registry-free single-VM deployment engine — zero-downtime, SSH-pipelined blue/green deploys with podman/bare binaries. `cargo install kampodra` or `brew install`.
+  ```bash
+  kampodra deploy --blue-green   # ship to any Linux VM over SSH, no registry, no k8s
+  ```
+- **[@talha7k/zatca](https://www.npmjs.com/package/@talha7k/zatca):** Production ZATCA e-invoicing compliance library for Saudi Arabia — Phase 1 & 2 (UBL generation, cryptographic stamping, QR codes, ZATCA portal integration). Used by real invoicing systems.
+  ```bash
+  npm install @talha7k/zatca     # Fatoora compliance in a box
+  ```
 - **Multi-Tenant SaaS:** Architect behind **eSellar** (ERP/POS), **MyWor1d** (marketplace engine), and cross-platform apps on React Native / Expo.
 
 ### 🛠️ Tech Stack
